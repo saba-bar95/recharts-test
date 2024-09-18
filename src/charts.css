@@ -1,0 +1,21 @@
+@font-face {
+  font-family: FiraGOBold;
+  src: url(/src/assets/FiraGO-ExtraBold.otf);
+}
+
+.legend-container {
+  font-family: FiraGOBold;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.recharts-legend-wrapper p {
+  font-size: 1.1em;
+}
+
+.recharts-legend-wrapper span {
+  font-size: 1.5em;
+}
