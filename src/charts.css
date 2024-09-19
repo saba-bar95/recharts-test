@@ -1,10 +1,15 @@
 @font-face {
+  font-family: FiraGOSemiBold;
+  src: url(/src/assets/FiraGO-SemiBold.otf);
+}
+
+@font-face {
   font-family: FiraGOBold;
   src: url(/src/assets/FiraGO-ExtraBold.otf);
 }
 
 .legend-container {
-  font-family: FiraGOBold;
+  font-family: FiraGOSemiBold;
   display: flex;
   justify-content: end;
   gap: 20px;
@@ -14,6 +19,7 @@
 
 .recharts-legend-wrapper p {
   font-size: 1.1em;
+  color: #1e1e1e;
 }
 
 .recharts-legend-wrapper span {
